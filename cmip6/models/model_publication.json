@@ -1,25 +1,25 @@
 {
     "mcm-ua-1-0": {
         "toplevel": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "aerosol": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "atmos": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "land": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "landice": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "ocean": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "seaice": {
-            "publish": "off"
+            "publish": "on"
         }
     }
 }
