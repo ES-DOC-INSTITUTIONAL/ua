@@ -1,0 +1,25 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "ua", 
+    "seedingSource": "Spreadsheet", 
+    "content": [
+        {
+            "mnemonic": "Stouffer-Ron", 
+            "name": "Ronald J Stouffer", 
+            "is_organisation": false, 
+            "address_postal": "Gould-Simpson, Rm. 208, University of Arizona, Tucson AZ 85721", 
+            "address_email": "ronstouffer@gmail.com", 
+            "url": "http://u.arizona.edu/~ronaldstouffer/index.html", 
+            "orcid": "0000-0002-7900-6290"
+        }, 
+        {
+            "mnemonic": "Russell-Joellen", 
+            "name": "Joellen L Russell", 
+            "is_organisation": false, 
+            "address_postal": "Gould-Simpson, Rm. 208, University of Arizona, Tucson AZ 85721", 
+            "address_email": "jrussell@email.arizona.edu", 
+            "url": "https://profiles.arizona.edu/person/jrussell", 
+            "orcid": "\u00a00000-0001-9937-6056"
+        }
+    ]
+}
