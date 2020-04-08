@@ -1,0 +1,134 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "ua", 
+    "seedingSource": "Spreadsheet", 
+    "sourceID": "mcm-ua-1-0", 
+    "topic": "aerosol", 
+    "content": {
+        "cmip6.aerosol.key_properties.name": {
+            "values": [
+                "not applicable"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.keywords": {
+            "values": [
+                "not applicable"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.overview": {
+            "values": [
+                "aerosol effects put into model via changes in surface albedo. Haywood et al. "
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.scheme_scope": {
+            "values": [
+                "troposphere"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.basic_approximations": {
+            "values": [
+                "Diect effect only"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.number_of_tracers": {
+            "values": [
+                0
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.family_approach": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.software_properties.repository": {
+            "values": [
+                "Github"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.software_properties.code_version": {
+            "values": [
+                1
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.software_properties.code_languages": {
+            "values": [
+                "Fortran 77"
+            ]
+        }, 
+        "cmip6.aerosol.grid.name": {
+            "values": [
+                "R30"
+            ]
+        }, 
+        "cmip6.aerosol.grid.overview": {
+            "values": [
+                "96 east-west by 80 north-south grid values"
+            ]
+        }, 
+        "cmip6.aerosol.grid.matches_atmosphere_grid": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.grid.resolution.name": {
+            "values": [
+                "r30"
+            ]
+        }, 
+        "cmip6.aerosol.grid.resolution.canonical_horizontal_resolution": {
+            "values": [
+                "2.3 deg"
+            ]
+        }, 
+        "cmip6.aerosol.grid.resolution.number_of_horizontal_gridpoints": {
+            "values": [
+                96
+            ]
+        }, 
+        "cmip6.aerosol.grid.resolution.number_of_vertical_levels": {
+            "values": [
+                0
+            ]
+        }, 
+        "cmip6.aerosol.transport.name": {
+            "values": [
+                "not applicable"
+            ]
+        }, 
+        "cmip6.aerosol.emissions.name": {
+            "values": [
+                "not applicable"
+            ]
+        }, 
+        "cmip6.aerosol.concentrations.name": {
+            "values": [
+                "Malte Meinshausen"
+            ]
+        }, 
+        "cmip6.aerosol.concentrations.overview": {
+            "values": [
+                "Malte Meinshausen provided concentrations"
+            ]
+        }, 
+        "cmip6.aerosol.concentrations.prescribed_lower_boundary": {
+            "values": [
+                "none"
+            ]
+        }, 
+        "cmip6.aerosol.concentrations.prescribed_upper_boundary": {
+            "values": [
+                "none"
+            ]
+        }, 
+        "cmip6.aerosol.concentrations.prescribed_fields_mmr": {
+            "values": [
+                "total serosol burden"
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.name": {
+            "values": [
+                "not applicable"
+            ]
+        }
+    }
+}

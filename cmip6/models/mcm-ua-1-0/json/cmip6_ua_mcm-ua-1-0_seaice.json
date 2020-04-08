@@ -1,0 +1,326 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "ua", 
+    "seedingSource": "Spreadsheet", 
+    "sourceID": "mcm-ua-1-0", 
+    "topic": "seaice", 
+    "content": {
+        "cmip6.seaice.key_properties.name": {
+            "values": [
+                "Bryan-Cox"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.keywords": {
+            "values": [
+                "thermodynamic"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.overview": {
+            "values": [
+                "Ice has no temperature. Ice covers entire grid box, no leads, concentration = 1 or 0. Ice moves with ocean currents only, no wind forcing. Snow that falls on sea ice is added to thickness. Ice can melt from top or bottom."
+            ]
+        }, 
+        "cmip6.seaice.key_properties.variables.prognostic": {
+            "values": [
+                "sea ice v-velocity", 
+                "sea ice thickness", 
+                "Sea ice u-velocity"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.seawater_properties.ocean_freezing_point": {
+            "values": [
+                "Constant: Constant value of seawater freezing point is used."
+            ]
+        }, 
+        "cmip6.seaice.key_properties.seawater_properties.ocean_freezing_point_value": {
+            "values": [
+                -2
+            ]
+        }, 
+        "cmip6.seaice.key_properties.resolution.name": {
+            "values": [
+                "N40"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.resolution.canonical_horizontal_resolution": {
+            "values": [
+                "2.3 deg"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.resolution.number_of_horizontal_gridpoints": {
+            "values": [
+                192
+            ]
+        }, 
+        "cmip6.seaice.key_properties.tuning_applied.description": {
+            "values": [
+                "none, flux adjustments used"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.tuning_applied.target": {
+            "values": [
+                "none"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.tuning_applied.metrics_used": {
+            "values": [
+                "none"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.tuning_applied.variables": {
+            "values": [
+                "none"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.assumptions.description": {
+            "values": [
+                "Simple sea ice model from 1970's and 80's."
+            ]
+        }, 
+        "cmip6.seaice.key_properties.assumptions.on_diagnostic_variables": {
+            "values": [
+                "none"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.assumptions.missing_processes": {
+            "values": [
+                "ice movement with wind, leads, etc."
+            ]
+        }, 
+        "cmip6.seaice.key_properties.conservation.description": {
+            "values": [
+                "Model conserves heat and water"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.conservation.properties": {
+            "values": [
+                "Energy"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.conservation.budget": {
+            "values": [
+                "thickness"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.conservation.was_flux_correction_used": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.seaice.grid.name": {
+            "values": [
+                "Bryan Cox"
+            ]
+        }, 
+        "cmip6.seaice.grid.overview": {
+            "values": [
+                "Sea ice on the ocean grid."
+            ]
+        }, 
+        "cmip6.seaice.grid.discretisation.horizontal.grid": {
+            "values": [
+                "Ocean grid: Sea ice is horizontally discretised on the ocean grid."
+            ]
+        }, 
+        "cmip6.seaice.grid.discretisation.horizontal.grid_type": {
+            "values": [
+                "Structured grid"
+            ]
+        }, 
+        "cmip6.seaice.grid.discretisation.horizontal.scheme": {
+            "values": [
+                "Finite differences"
+            ]
+        }, 
+        "cmip6.seaice.grid.discretisation.horizontal.thermodynamics_time_step": {
+            "values": [
+                7200
+            ]
+        }, 
+        "cmip6.seaice.grid.discretisation.horizontal.dynamics_time_step": {
+            "values": [
+                7200
+            ]
+        }, 
+        "cmip6.seaice.grid.discretisation.horizontal.additional_details": {
+            "values": [
+                "192 east-west by 80 north-south"
+            ]
+        }, 
+        "cmip6.seaice.grid.discretisation.vertical.layering": {
+            "values": [
+                "Zero-layer: Simulation has no internal ice thermodynamics."
+            ]
+        }, 
+        "cmip6.seaice.grid.seaice_categories.has_mulitple_categories": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.seaice.grid.snow_on_seaice.has_snow_on_ice": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.seaice.grid.snow_on_seaice.number_of_snow_levels": {
+            "values": [
+                0
+            ]
+        }, 
+        "cmip6.seaice.dynamics.name": {
+            "values": [
+                "Bryan Cox"
+            ]
+        }, 
+        "cmip6.seaice.dynamics.overview": {
+            "values": [
+                " Ice moves with ocean currents only, no wind forcing. If ice greater than 4m thick, divergence only allowed."
+            ]
+        }, 
+        "cmip6.seaice.dynamics.horizontal_transport": {
+            "values": [
+                "Other: transport via ocean currents only"
+            ]
+        }, 
+        "cmip6.seaice.dynamics.ice_strength_formulation": {
+            "values": [
+                "Other: None"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.name": {
+            "values": [
+                "Bryan Cox"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.overview": {
+            "values": [
+                "Ice has no temperature. Ocean must be at -2C. Heat coinduction through the ice is a square root function. Ice can melt from above or below, but all melt is applied to bottom of ice."
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.energy.thermal_conductivity": {
+            "values": [
+                "Pure ice"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.energy.heat_diffusion": {
+            "values": [
+                "Conduction fluxes"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.energy.basal_heat_flux": {
+            "values": [
+                "Other: all melt occurs at bottom of ice."
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.energy.heat_content_of_precipitation": {
+            "values": [
+                "assumed to be same temperature as ocean."
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.energy.precipitation_effects_on_salinity": {
+            "values": [
+                "Snow fals on the ice and is added to ice thickness. Rain is added directly to ocean under ice."
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.mass.new_ice_formation": {
+            "values": [
+                "Temperature falls below -2C"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.mass.ice_lateral_melting": {
+            "values": [
+                "Other: none"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.mass.ice_surface_sublimation": {
+            "values": [
+                "Ice can sublimate if surface relative humidity less than 100%."
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.mass.frazil_ice": {
+            "values": [
+                "Ocean water falls below -2C"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.salt.has_multiple_sea_ice_salinities": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.salt.sea_ice_salinity_thermal_impacts": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.salt.mass_transport.salinity_type": {
+            "values": [
+                "Other: ice has no salinity"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.salt.mass_transport.additional_details": {
+            "values": [
+                "Sea ice is freshwater when melted. Ice has no salinity."
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.salt.thermodynamics.additional_details": {
+            "values": [
+                "none"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.ice_thickness_distribution.representation": {
+            "values": [
+                "Other: cocnetration = 1 or 0, no thickness categories"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.ice_floe_size_distribution.additional_details": {
+            "values": [
+                "none"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.melt_ponds.are_included": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.melt_ponds.formulation": {
+            "values": [
+                "Other: Surface temperature greater than 0C"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.melt_ponds.impacts": {
+            "values": [
+                "Albedo"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.snow_processes.has_snow_aging": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.snow_processes.snow_aging_scheme": {
+            "values": [
+                "no snow on ice."
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.snow_processes.has_snow_ice_formation": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.seaice.radiative_processes.name": {
+            "values": [
+                "Bryan Cox"
+            ]
+        }, 
+        "cmip6.seaice.radiative_processes.overview": {
+            "values": [
+                "Surface albedo a square root function of thickness. If surface temperature goes above freezing, albedo is reduced. Thee is no snow on sea ice in this model."
+            ]
+        }, 
+        "cmip6.seaice.radiative_processes.surface_albedo": {
+            "values": [
+                "Parameterized: Sea ice albedo is parameterized."
+            ]
+        }
+    }
+}
