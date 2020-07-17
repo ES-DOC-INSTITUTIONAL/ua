@@ -5,6 +5,56 @@
     "sourceID": "mcm-ua-1-0", 
     "topic": "landice", 
     "content": {
+        "cmip6.landice.key_properties.name": {
+            "values": [
+                "Manabe"
+            ]
+        }, 
+        "cmip6.landice.key_properties.keywords": {
+            "values": [
+                "simple, prescribed"
+            ]
+        }, 
+        "cmip6.landice.key_properties.overview": {
+            "values": [
+                "Land ice grid locations are set before model begin integration and held fixed with no changes. Basically Greenland and Antarctica are flagged as land ice locations. Snow can fall on these points. Snow depth changes results from snowfall and surface melt. If the surface temperature tried to rise above 0C, the surface temperature is reset to 0C and the heat is archived for analysis."
+            ]
+        }, 
+        "cmip6.landice.key_properties.ice_albedo": {
+            "values": [
+                "prescribed"
+            ]
+        }, 
+        "cmip6.landice.key_properties.atmospheric_coupling_variables": {
+            "values": [
+                "snowfall, surface temperature"
+            ]
+        }, 
+        "cmip6.landice.key_properties.oceanic_coupling_variables": {
+            "values": [
+                "none"
+            ]
+        }, 
+        "cmip6.landice.key_properties.software_properties.repository": {
+            "values": [
+                "https://github.com/rjstouffer/Manabe-Climate-Model"
+            ]
+        }, 
+        "cmip6.landice.key_properties.software_properties.code_version": {
+            "values": [
+                "MCM_UA"
+            ]
+        }, 
+        "cmip6.landice.key_properties.software_properties.code_languages": {
+            "values": [
+                "FORTRAN 77"
+            ]
+        }, 
+        "cmip6.landice.key_properties.tuning_applied.description": {
+            "values": [
+                "none"
+            ]
+        }, 
         "cmip6.landice.grid.name": {
             "values": [
                 "Manabe"
@@ -18,6 +68,56 @@
         "cmip6.landice.grid.adaptive_grid": {
             "values": [
                 false
+            ]
+        }, 
+        "cmip6.landice.glaciers.name": {
+            "values": [
+                "Manabe"
+            ]
+        }, 
+        "cmip6.landice.glaciers.overview": {
+            "values": [
+                "none"
+            ]
+        }, 
+        "cmip6.landice.glaciers.dynamic_areal_extent": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.landice.ice.name": {
+            "values": [
+                "Manabe"
+            ]
+        }, 
+        "cmip6.landice.ice.overview": {
+            "values": [
+                "Ice sheets are prescribed and remain unchanged in all runs. There are no ice shelves. If surface temperature rises aboe 0C over an ice sheet and there is no snow to melt, the surface temperature is set to 0C and the heat is stored for offline analysis. The ice sheet is unchanged; no water goes into the ocean."
+            ]
+        }, 
+        "cmip6.landice.ice.mass_balance.basal.bedrock": {
+            "values": [
+                "none"
+            ]
+        }, 
+        "cmip6.landice.ice.mass_balance.basal.ocean": {
+            "values": [
+                "none"
+            ]
+        }, 
+        "cmip6.landice.ice.mass_balance.frontal.calving": {
+            "values": [
+                "If the water equivalent snowdepth at a grid location exceeds 20cm, excess is routed to ocean as a frozen water flux"
+            ]
+        }, 
+        "cmip6.landice.ice.mass_balance.frontal.melting": {
+            "values": [
+                "none"
+            ]
+        }, 
+        "cmip6.landice.ice.dynamics.description": {
+            "values": [
+                "none"
             ]
         }
     }
