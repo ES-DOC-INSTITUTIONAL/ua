@@ -1,5 +1,27 @@
 {
     "stage one (i.e. default) conformances": {
         "publish": "on"
+    },
+    "stage two (i.e. final) conformances, arranged (key:value) by MIP -> Model": {
+        "CMIP": {
+            "MCM-UA-1-0": {
+                "publish": "off"
+            }
+        },
+        "FAFMIP": {
+            "MCM-UA-1-0": {
+                "publish": "off"
+            }
+        },
+        "PMIP": {
+            "MCM-UA-1-0": {
+                "publish": "off"
+            }
+        },
+        "ScenarioMIP": {
+            "MCM-UA-1-0": {
+                "publish": "off"
+            }
+        }
     }
 }
